@@ -1,0 +1,8 @@
+﻿<Window x:Class="Kalman.VehicleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:oxy="clr-namespace:OxyPlot.Wpf;assembly=OxyPlot.Wpf" Title="VehicleWindow" Height="300" Width="487" Loaded="Window_Loaded_1" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <oxy:Plot x:Name="Plot" />
+    </Grid>
+</Window>
